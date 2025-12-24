@@ -1,0 +1,38 @@
+.card {
+  padding: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 400px;
+  margin: 16px auto;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.content {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.default {
+  border-color: #ccc;
+  background-color: #f9f9f9;
+}
+
+.danger {
+  border-color: #e74c3c;
+  background-color: #fdecea;
+}
+
+.highlight {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.fullWidth {
+  width: 100%;
+  max-width: none;
+}

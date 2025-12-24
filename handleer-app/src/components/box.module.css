@@ -1,0 +1,18 @@
+.box {
+    padding : 20px;
+    border : 2px solid #ccc;
+    border-radius : 8px;
+    margin-bottom : 12px;
+    background : #f9f9f9;
+}
+
+/* 강조스타일 */
+.highlight {
+    box-shadow : 0 6px 16px rgba(0,0,0,0.15);
+    border-color : #3498dd;
+}
+
+/* 전체 너비 */
+.fullWidth {
+    width : 100%;
+}

@@ -1,0 +1,40 @@
+const exam = () => {
+    const name = "홍길동";
+    const age = 20;
+    const skills = ["HTML", "CSS", "JS", "React"];
+    const isDarkMode = true; 
+
+    const users = [
+        { id: 1, name: "Kim" },
+        { id: 2, name: "Lee" }
+    ];
+
+    const divStyle = {
+        backgroundColor: isDarkMode ? "black" : "white",
+        color: isDarkMode ? "white" : "black",
+        padding: "20px"
+    };
+
+    return (
+        <div style={divStyle}>
+            <h1>안녕하세요, {name}님</h1>
+            <p>{age >= 18 ? "성인입니다" : "미성년자입니다"}</p>
+
+            <h2>Skills</h2>
+            <ul>
+                {skills.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                ))}
+            </ul>
+
+            <h2>Users</h2>
+            <ul>
+                {users.map(user => (
+                    <li key={user.id}>{user.name}</li>
+                ))}
+            </ul>
+        </div>
+    );
+};
+
+export default exam;
